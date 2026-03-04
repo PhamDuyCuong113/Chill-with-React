@@ -1,0 +1,39 @@
+Arrow Functions: Viết hàm kiểu () => {}.
+    Kiểu hàm viết gọn, không có dùng this được
+
+Destructuring: Lấy dữ liệu từ Object/Array nhanh gọn.
+	Cách lấy dữ liệu từ mảng [], từ đối tượng {} nhanh
+    const students = ["Nam", "Lan", "Huy"];
+    const [first, second] = students;
+    const {name: productName, price: cost} = product;
+    console.log(productName, cost); // Laptop 1500
+
+Template Literals: Cộng chuỗi bằng dấu backtick `String ${variable}`.
+	Cách nối chuỗi xịn hơn trong js `${object.tt}`
+    Array Methods: Thuộc lòng 
+    .map() đi qua từng phần tử trong mảng, trả về mảng mới, số phần tử không đổi
+    .filter(), lọc lại cái cần
+    .reduce(). Đây là "vũ khí" để render dữ liệu trong React.
+    array.reduce((acc, current) => {
+    return acc + current;
+    }, initialValue);
+    acc = biến tích lũy
+    current = phần tử hiện tại
+
+Datalayers: Hiểu cách JSON hoạt động.
+    Nơi lưu – trao đổi – vận chuyển dữ liệu giữa:
+        Backend ↔ Frontend
+        API ↔ React
+        Database ↔ App
+
+
+Dữ liệu trong datalayer thường ở dạng JSON
+    JSON KHÔNG cho phép function
+    JSON KHÔNG cho phép key không có dấu ""
+    Database
+    ↓
+    Backend (Java, Node, ...)
+    ↓  (JSON)
+    Frontend (React)
+    Backend trả JSON
+    Frontend nhận JSON → render

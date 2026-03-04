@@ -1,0 +1,9 @@
+Props (Properties): Cách truyền dữ liệu từ Cha xuống Con. Nhớ kỹ: Props là bất biến (Read-only), con không được tự ý sửa props của cha.
+
+Props = dữ liệu truyền từ cha xuống con
+
+Props = object
+
+Props = read-only
+
+Component = function nhận props

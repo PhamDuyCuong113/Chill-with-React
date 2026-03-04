@@ -1,0 +1,8 @@
+Component: kiểu coi trang web như mảnh ghép lego, tạo từng mảnh xong ghép lại
+
+Thay vì viết 1 component to đùng, ta chia nhỏ ra nhiều component nhỏ, rồi lắp lại.
+
+SocialCard
+ ├── Avatar
+ ├── UserInfo
+ └── ActionButtons

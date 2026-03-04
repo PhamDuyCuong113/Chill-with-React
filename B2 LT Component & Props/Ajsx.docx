@@ -1,0 +1,9 @@
+JSX = viết cho người đọc dễ hiểu.
+React.createElement() = thứ máy hiểu.
+
+JSX: Viết HTML ngay trong JavaScript (nhưng nhớ là className chứ không phải class).
+
+JSX phải có 1 thẻ cha duy nhất? => Chính là vì React là kiểu createElement và function chỉ có thể return về 1 giá trị duy nhất, React cần 1 gốc duy nhất (1 root element) để render.
+
+Cách giải quyết 1 – Bọc bằng div: Cần layout, CSS, ref, structure
+Cách giải quyết 2: Fragment (<> </>) Chỉ để gom JSX cho khỏi lỗi
