@@ -7,3 +7,5 @@ JSX phải có 1 thẻ cha duy nhất? => Chính là vì React là kiểu create
 
 Cách giải quyết 1 – Bọc bằng div: Cần layout, CSS, ref, structure
 Cách giải quyết 2: Fragment (<> </>) Chỉ để gom JSX cho khỏi lỗi
+
+
