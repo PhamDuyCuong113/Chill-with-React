@@ -98,7 +98,7 @@ export default function App() {
     setNgaySinh("");
     setGioiTinh("");
     setDiaChi("");
-    setThanhPho("");
+
   };
 
   return (
