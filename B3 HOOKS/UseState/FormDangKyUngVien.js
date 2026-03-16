@@ -17,7 +17,7 @@ function App() {
     viTri: "",
   });
 
-  const handleChange = (e) => {
+  const handleChange = (e) => {  
     const { name, value, type, checked } = e.target;
 
     setForm({
