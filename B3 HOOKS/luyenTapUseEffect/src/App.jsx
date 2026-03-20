@@ -17,7 +17,7 @@ function App() {
         .then(data => setUsers(data));
     }, [type]);
 
-    const handleShow    = () => {
+    const handleShow  = () => {
         setShow(!show);
     } 
     const handleChange = (e) => {
